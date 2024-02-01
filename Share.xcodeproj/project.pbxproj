@@ -31,7 +31,7 @@
 		3F647D062A52F3BA008369FB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F647D042A52F3BA008369FB /* MainInterface.storyboard */; };
 		3F647D0A2A52F3BA008369FB /* ShareExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F647D002A52F3B9008369FB /* ShareExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3F647D122A52F4D0008369FB /* Share.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F647CD82A52F384008369FB /* Share.xcdatamodeld */; };
-		3F7789B02B6BAE8600FFB54A /* llama-2-7b-chat.Q8_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F7789AF2B6BAE8600FFB54A /* llama-2-7b-chat.Q8_0.txt */; };
+		3F7789B22B6BC3BC00FFB54A /* llama-2-7b-chat.Q8_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F7789B12B6BC3BC00FFB54A /* llama-2-7b-chat.Q8_0.txt */; };
 		3F7F97782B6B3F0E009C72D9 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F97772B6B3F0E009C72D9 /* PlusView.swift */; };
 		3F9F04342AA1B2D700BE6E74 /* IAP in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9F04332AA1B2D700BE6E74 /* IAP */; };
 		3F9F04372AA1B2F200BE6E74 /* IAP in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9F04362AA1B2F200BE6E74 /* IAP */; };
@@ -111,7 +111,7 @@
 		3F647D072A52F3BA008369FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F647D0F2A52F3DC008369FB /* Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share.entitlements; sourceTree = "<group>"; };
 		3F647D102A52F48D008369FB /* ShareExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExt.entitlements; sourceTree = "<group>"; };
-		3F7789AF2B6BAE8600FFB54A /* llama-2-7b-chat.Q8_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "llama-2-7b-chat.Q8_0.txt"; sourceTree = SOURCE_ROOT; };
+		3F7789B12B6BC3BC00FFB54A /* llama-2-7b-chat.Q8_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "llama-2-7b-chat.Q8_0.txt"; sourceTree = "<group>"; };
 		3F7F97772B6B3F0E009C72D9 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
 		3FC5A0C02A5D25DE0054048F /* Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
 		3FD55EB32A5555F800F7B7B2 /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		3F647CCC2A52F383008369FB /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				3F7789AF2B6BAE8600FFB54A /* llama-2-7b-chat.Q8_0.txt */,
+				3F7789B12B6BC3BC00FFB54A /* llama-2-7b-chat.Q8_0.txt */,
 				3F13D60F2A61691E0010C8C6 /* Info.plist */,
 				3F13D6032A6112AD0010C8C6 /* nav */,
 				3F647D0F2A52F3DC008369FB /* Share.entitlements */,
@@ -420,7 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13D6112A6285000010C8C6 /* use.mp4 in Resources */,
-				3F7789B02B6BAE8600FFB54A /* llama-2-7b-chat.Q8_0.txt in Resources */,
+				3F7789B22B6BC3BC00FFB54A /* llama-2-7b-chat.Q8_0.txt in Resources */,
 				3F647CD52A52F384008369FB /* Preview Assets.xcassets in Resources */,
 				3F647CD22A52F384008369FB /* Assets.xcassets in Resources */,
 			);
